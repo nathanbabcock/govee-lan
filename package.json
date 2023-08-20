@@ -1,0 +1,20 @@
+{
+  "name": "govee-lan",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "concurrently \"tsc -w\" \"nodemon src/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "govee-lan-control": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "typescript": "5.2.0-beta"
+  }
+}
